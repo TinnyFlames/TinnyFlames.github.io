@@ -4,9 +4,9 @@
 # ---------------------------------------------------------------
 
 # Site
-title:  一个简单的博客 
+title:  TinnyFlame's blog 
 subtitle:
-description:
+description: life = learn + joy
 author: TinnyFlames
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
@@ -87,7 +87,7 @@ keywords: "Jekyll, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2021
 
 # icon between year and author @Footer
 authoricon: heart
@@ -373,7 +373,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 5f35d6d6d98db181da8ceaf8c398621d
 
 # Duoshuo ShortName
 #duoshuo_shortname:

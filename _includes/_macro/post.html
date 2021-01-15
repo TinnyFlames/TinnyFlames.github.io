@@ -25,7 +25,6 @@
 
     {% unless headlessPost %}
       <header class="post-header">
-        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
         {% comment %} % Not to show title for quote posts that do not have a title {% endcomment %}
         {% unless is_index and post.type == 'quote' and post.title == nil %}
           <{% if site.seo %}h2{% else %}h1{% endif %} class="post-title" itemprop="name headline">
@@ -330,13 +329,6 @@
         {% include _macro/post-content.html %}
       {% endif  %}
       <div id="vcomments"></div>
-    <script>
-        new Valine({
-            el: '#vcomments',
-            appId: 'jfMRXMt3Y2JBrwuPkHB3uzVs-gzGzoHszd',
-            appKey: 'GK1BSWR8sTpUzoHtElnlRLNvy'
-        })
-    </script>
     </div>
 
     <div>

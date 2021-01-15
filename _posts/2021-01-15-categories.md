@@ -8,3 +8,5 @@ categories:
 ---
 
 Test for my POST
+Math test:
+$$ a+b=c$$
